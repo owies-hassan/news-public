@@ -1,6 +1,6 @@
 
 
-# this project just work on localhost becase  api which I used don't work on server
+# this project just work on localhost because  api which I used don't work on server
 ### so you can clone this project on your editor and 
 ### npm start with add this library and all thing is right
 
