@@ -1,0 +1,27 @@
+.color-span{
+  color: green;
+}
+.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper{
+  background:rgb(53 144 235)!important;
+  svg{
+    color: white;
+  }
+}
+
+.style_text{
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+
+
+@media (max-width: 899px) {
+  .css-1cndkqf-MuiToolbar-root{
+    display: inline-block!important;
+  }
+}
+.fixed-class{
+  background: #198dff40!important;
+}

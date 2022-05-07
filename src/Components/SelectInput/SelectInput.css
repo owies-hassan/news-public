@@ -1,0 +1,47 @@
+select {
+  appearance: none;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  z-index: 10;
+}
+select:hover {
+  background: #df57579e;
+}
+
+select option {
+  background: darkgrey;
+  appearance: none;
+  font-size: 20px;
+  margin: 20px;
+  border: none;
+  outline: none;
+}
+
+.select-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+svg {
+  position: absolute;
+  /* right: 42px; */
+  right: 1px;
+  z-index: 1;
+}
+
+.search-input label + .css-5xn5lu-MuiInputBase-root-MuiInput-root {
+  color: white !important;
+}
+.search-input .css-5xn5lu-MuiInputBase-root-MuiInput-root:before {
+  border-bottom: red;
+}
+.search-input label {
+  color: white;
+}
+
+/*# sourceMappingURL=SelectInput.css.map */

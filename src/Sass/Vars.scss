@@ -1,0 +1,12 @@
+
+
+$border_span: 1px solid white;
+$border_padding:5px;
+$basicColor:#fff;
+
+@function text-color($color){
+  @if(lightness($color)>10){
+    @return #fff
+  }
+  @return #eee
+}

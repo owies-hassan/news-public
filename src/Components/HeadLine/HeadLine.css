@@ -1,0 +1,199 @@
+.content-app-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+}
+.content-app-home span:hover {
+  background: #ff0000b0;
+  border: 3px solid white;
+  padding: 10px;
+}
+.content-app-home .content-home-intro {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.content-app-home .content-home-intro .style_Intro {
+  position: relative;
+}
+.content-app-home .content-home-intro .style_Intro:nth-child(1) {
+  width: 100%;
+  height: 500px;
+}
+.content-app-home .content-home-intro .style_Intro:nth-child(1) img {
+  width: 100%;
+  height: 500px;
+}
+@media (max-width: 768px) {
+  .content-app-home .content-home-intro .style_Intro:nth-child(1) {
+    height: 100%;
+  }
+  .content-app-home .content-home-intro .style_Intro:nth-child(1) img {
+    height: 100%;
+  }
+}
+.content-app-home .content-home-intro .style_Intro {
+  width: 49%;
+  height: 250px;
+}
+.content-app-home .content-home-intro .style_Intro img {
+  width: 100%;
+  height: 240px;
+}
+@media (max-width: 768px) {
+  .content-app-home .content-home-intro .style_Intro {
+    height: 100%;
+    width: 48%;
+  }
+  .content-app-home .content-home-intro .style_Intro img {
+    height: 100%;
+  }
+}
+.content-app-home .content-home-intro .content {
+  padding: 10px;
+  position: absolute;
+  bottom: 15px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+}
+.content-app-home .content-home-intro .content span {
+  border: 1px solid white;
+  padding: 5px;
+}
+@media (max-width: 767px) and (min-width: 576px) {
+  .content-app-home .content-home-intro .content {
+    font-size: 15px;
+  }
+}
+@media (max-width: 575px) {
+  .content-app-home .content-home-intro .content {
+    padding: 5px;
+    font-size: 7px;
+  }
+}
+.content-app-home .content-home-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 50px;
+}
+@media (max-width: 568px) {
+  .content-app-home .content-home-content {
+    gap: 10px;
+  }
+}
+.content-app-home .content-home-content .style_Content {
+  position: relative;
+  width: 32%;
+  overflow: hidden;
+  transition: 0.3s;
+}
+@media (max-width: 768px) {
+  .content-app-home .content-home-content .style_Content {
+    width: 100%;
+  }
+}
+.content-app-home .content-home-content .style_Content:hover {
+  transform: scale(1.1);
+  z-index: 3;
+}
+.content-app-home .content-home-content .style_Content img {
+  width: 165%;
+  height: 500px;
+  border-radius: 19px;
+}
+@media (max-width: 768px) {
+  .content-app-home .content-home-content .style_Content img {
+    height: 100%;
+    width: 100%;
+    border-radius: 1px;
+  }
+}
+.content-app-home .content-home-content .style_Content .content {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  background: #ffffff99;
+  border-radius: 20px;
+  width: 60%;
+  padding: 14px;
+  font-size: 20px;
+}
+.content-app-home .content-home-content .style_Content .content span {
+  border: 1px solid white;
+  padding: 5px;
+}
+@media (max-width: 767px) {
+  .content-app-home .content-home-content .style_Content .content {
+    font-size: 20px;
+    background: #66339961;
+  }
+}
+.content-app-home .content-home-content .style_Content .content:hover {
+  background: green;
+}
+.content-app-home .content-home-sideBar {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.content-app-home .content-home-sideBar .test {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+.content-app-home .content-home-sideBar .test .img_style_sideBar {
+  width: 20%;
+  height: 20%;
+}
+@media (max-width: 575px) {
+  .content-app-home .content-home-sideBar .test .img_style_sideBar {
+    width: 100%;
+    height: 100%;
+  }
+}
+.content-app-home .content-home-sideBar .test img {
+  transition: 0.3s;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.content-app-home .content-home-sideBar .test img:hover {
+  transform: scale(1.2);
+}
+.content-app-home .content-home-sideBar .test .content {
+  color: #fff;
+  font-size: 27px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 38px;
+  align-items: center;
+  width: 100%;
+  background: #1976d2;
+  margin-bottom: 2px;
+}
+@media (max-width: 575px) {
+  .content-app-home .content-home-sideBar .test .content {
+    display: block;
+    font-size: 14px;
+    width: 100%;
+    padding: 6px;
+  }
+}
+.content-app-home .content-home-sideBar .test .content:hover {
+  background: rgba(25, 118, 210, 0.78);
+}
+
+/*# sourceMappingURL=HeadLine.css.map */
